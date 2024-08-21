@@ -1,0 +1,18 @@
+Day-1: Introduction to DBMS with Real Life Examples | What is DBMS?
+
+                             Database System
+                             ⬋            ⬊
+                      Database             DBMS (Perform Operations)
+                    ⬋         ⬊                  ⬇
+             Structured     Unstructured           ⟶ SQL Server
+                             (90% Data)            ⟶ Oracle 9/11/12 etc.
+                  ⬇              ⬇                 ⟶ MySQL
+            IRCTC, Facebook   Webpages             ⟶ DB2
+
+        Structure Database -> RDBMS (Relational Database Management System)
+        Example (Tabular Form):  
+                   Candidate-Name    Address    Gender
+                       A               abc       Male
+                       B               def      Female
+
+     ------------------------------✗------------------------------
