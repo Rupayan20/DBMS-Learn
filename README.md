@@ -31,12 +31,6 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
    
 3. **Contribute and Share**: You're encouraged to contribute by sharing your knowledge, fixing issues, or adding new exercises.
 
-## Contributing
-<p> We welcome contributions from the community! If you have notes, examples, or improvements to share, please submit a pull request or open an issue. </p>
-
-### Project Contributors
-- [x] <a href="https://github.com/Rupayan20"> Rupayan Dutta </a>
-
 ### Directory Structure
 
 ```bash
@@ -54,5 +48,11 @@ DBMS-Learn/
     ├── #
     ├── #
     └── #
+```
 
+## Contributing
+<p> We welcome contributions from the community! If you have notes, examples, or improvements to share, please submit a pull request or open an issue. </p>
+
+### Project Contributors
+- [x] <a href="https://github.com/Rupayan20"> Rupayan Dutta </a>
 
