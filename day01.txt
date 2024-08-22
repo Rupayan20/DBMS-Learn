@@ -15,4 +15,4 @@ Day-1: Introduction to DBMS with Real Life Examples | What is DBMS?
                        A               abc       Male
                        B               def      Female
 
-     ------------------------------✗------------------------------
+        ------------------------------✗------------------------------

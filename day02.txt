@@ -1,0 +1,18 @@
+Day-2: File System vs DBMS | Diadvantages ofFile System | DBMS Advantages of File System
+
+i) Searching: In file system, when we fetch the particular data, but we have to access all data then according our needs we check our need.
+              But in DBMS, using query we have to access the data which we want, se Searching time is faster.
+
+ii) Attributes: When we want to use our data in file system, we have to depend in aatributes (like location).
+                But in DBMS, users don't know about the server details/location. They just have to fetch their data easily.
+
+iii) Concurrency: In file system, if more than one user access the data at a time, then concurrency happens.
+                  But in DBMS, at a time, more than one user access the data. No concurrency happens.
+
+iv) Security: In file system, the security protocol is not presented.
+              But in DBMS, there is many roles (like: Super Admin, Admin, User) and the security is high.
+
+v) Redundancy: In file system, data redundancy occurs.
+               But in DBMS, there is primary, unique key and using this data, redundancy never occurs.
+
+                          ------------------------------✗------------------------------
