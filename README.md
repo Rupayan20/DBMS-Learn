@@ -40,9 +40,21 @@ DBMS-Learn/
 │   ├── # Example of Database             
 │   └── # Example of DBMS
 ├── Day02/
+│   ├── # File System vs DBMS 
+│   ├── # Diadvantages ofFile System 
+│   └── # DBMS Advantages of File System
+├── Day03/
 │   ├── # 
-│   ├── #
+│   ├── # 
+│   └── # 
+├── Day04/
+│   ├── # 
+│   ├── # 
 │   └── #
+├── Day05/
+│   ├── # 
+│   ├── # 
+│   └── # 
 ...
 └── Day100/
     ├── #
