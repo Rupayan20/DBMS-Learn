@@ -44,9 +44,8 @@ DBMS-Learn/
 │   ├── # Diadvantages ofFile System 
 │   └── # DBMS Advantages of File System
 ├── Day03/
-│   ├── # 
-│   ├── # 
-│   └── # 
+│   ├── # What is Schema
+│   ├── # How to define Schemas 
 ├── Day04/
 │   ├── # 
 │   ├── # 
