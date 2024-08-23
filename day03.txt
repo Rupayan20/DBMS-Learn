@@ -1,0 +1,49 @@
+Day-3: 2 Tier and 3 Tier Architecture with real life examples 
+
+=> 2 Tier Architecture:
+
+        Client-1     Client-2     Client-3
+           ↕             ↕            ↕
+           ↕             ↕            ↕
+                       -----
+                      |-----|
+                      |-----|   Process
+                      |-----|    
+                      |-----|
+                      -------
+                         ↕
+                         ↕
+                  Database Server 
+
+Example: Through the use of API calls, client can connect directly to the database server.
+Advantages: i) Easy to access
+            ii) Easy maintanence.
+Disadvantages: i) Less Scalable,
+               ii) Less Security      
+
+
+=> 3 Tier Architecture:
+
+                  Client-1     Client-2     Client-3
+                     ↕             ↕            ↕
+                     ↕             ↕            ↕
+                     ---------------------------
+     Application    |                           |   Business
+       Server       |                           |     Layer 
+                     ---------------------------
+                                   ↕
+                                   ↕
+                                 -----
+                                |-----|
+                       Data     |-----|    Data 
+                      Source    |-----|    Layer
+                                |-----|
+                                -------
+
+Example: In IRCTC, multiple users try to fetch their data at a time. In 3-tier, all the high level data converted into low level
+         language in application server and the server sends the data to database. In this way, entire work is done.
+Advantages: i) Scalability,
+            ii) Security
+Disadvantages: i) High maintenance cost.
+
+                          ------------------------------✗------------------------------
