@@ -67,5 +67,5 @@ DBMS-Learn/
 ### Project Contributors
 - [x] <a href="https://github.com/Rupayan20"> Rupayan Dutta </a>
 
-## Learn sql
+## Learn SQL
 If you want to know more about SQL, please visit my [SQL Practice Repository](https://github.com/Rupayan20/SQL-Practice).
