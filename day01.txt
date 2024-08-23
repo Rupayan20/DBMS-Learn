@@ -1,4 +1,4 @@
-Day-1: Introduction to DBMS with Real Life Examples | What is DBMS?
+Day-1: Introduction to DBMS with Real Life Examples | What is DBMS
 
                              Database System
                              ⬋            ⬊
