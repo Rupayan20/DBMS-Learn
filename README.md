@@ -71,35 +71,38 @@ If you want to know more about SQL, please visit my [SQL Practice Repository](ht
 
 
 
-# DBMS-Learn
+# 🌟 DBMS-Learn
 
 ## Directory Structure
 
 <details>
-  <summary>Week 01 [+]</summary>
+  <summary>📅 <strong style="font-size:1.2em;">Week 01</strong> <span style="color: #6c757d;">(Introduction to DBMS)</span> ➕</summary>
 
-  - [Day 01](./Week01/Day01) - Introduction to DBMS, Example of Database, Example of DBMS
-  - [Day 02](./Week01/Day02) - File System vs DBMS, Disadvantages of File System, DBMS Advantages over File System
-  - [Day 03](./Week01/Day03) - What is Schema, How to define Schemas
-  - [Day 04](./Week01/Day04) - What is Schema, How to define Schemas
-  - [Day 05](./Week01/Day05) - Topic placeholder
-  - [Day 06](./Week01/Day06) - Topic placeholder
-  - [Day 07](./Week01/Day07) - Topic placeholder
+  - 🔹 [Day 01](./Week01/Day01) - Introduction to DBMS, Example of Database, Example of DBMS
+  - 🔹 [Day 02](./Week01/Day02) - File System vs DBMS, Disadvantages of File System, DBMS Advantages over File System
+  - 🔹 [Day 03](./Week01/Day03) - What is Schema, How to define Schemas
+  - 🔹 [Day 04](./Week01/Day04) - What is Schema, How to define Schemas
+  - 🔹 [Day 05](./Week01/Day05) - Topic placeholder
+  - 🔹 [Day 06](./Week01/Day06) - Topic placeholder
+  - 🔹 [Day 07](./Week01/Day07) - Topic placeholder
   
 </details>
 
 <details>
-  <summary>Week 02 [+]</summary>
+  <summary>📅 <strong style="font-size:1.2em;">Week 02</strong> <span style="color: #6c757d;">(Advanced DBMS Topics)</span> ➕</summary>
 
-  - [Day 08](./Week02/Day08) - Topic placeholder
-  - [Day 09](./Week02/Day09) - Topic placeholder
-  - [Day 10](./Week02/Day10) - Topic placeholder
-  - [Day 11](./Week02/Day11) - Topic placeholder
-  - [Day 12](./Week02/Day12) - Topic placeholder
-  - [Day 13](./Week02/Day13) - Topic placeholder
-  - [Day 14](./Week02/Day14) - Topic placeholder
+  - 🔹 [Day 08](./Week02/Day08) - Topic placeholder
+  - 🔹 [Day 09](./Week02/Day09) - Topic placeholder
+  - 🔹 [Day 10](./Week02/Day10) - Topic placeholder
+  - 🔹 [Day 11](./Week02/Day11) - Topic placeholder
+  - 🔹 [Day 12](./Week02/Day12) - Topic placeholder
+  - 🔹 [Day 13](./Week02/Day13) - Topic placeholder
+  - 🔹 [Day 14](./Week02/Day14) - Topic placeholder
 
 </details>
 
 <!-- Add more weeks as necessary -->
 
+## 🔗 Useful Links
+- [SQL Practice Repository](https://github.com/your-username/sql-practice)
+- [DBMS Notes](https://github.com/your-username/dbms-learn)
