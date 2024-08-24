@@ -71,7 +71,7 @@ If you want to know more about SQL, please visit my [SQL Practice Repository](ht
 
 
 
-# 🌟 DBMS-Learn
+
 
 ## Directory Structure
 
@@ -101,8 +101,36 @@ If you want to know more about SQL, please visit my [SQL Practice Repository](ht
 
 </details>
 
-<!-- Add more weeks as necessary -->
 
-## 🔗 Useful Links
-- [SQL Practice Repository](https://github.com/your-username/sql-practice)
-- [DBMS Notes](https://github.com/your-username/dbms-learn)
+
+# 🌟 DBMS-Learn 🌟
+
+## Directory Structure
+
+<details>
+  <summary><strong>📚 Week 01</strong> <span style="font-size: 1.2em;">➕</span></summary>
+  <ul style="margin-left: 20px;">
+    <li><a href="./Week01/Day01">Day 01</a> - Introduction to DBMS, Example of Database, Example of DBMS</li>
+    <li><a href="./Week01/Day02">Day 02</a> - File System vs DBMS, Disadvantages of File System, DBMS Advantages over File System</li>
+    <li><a href="./Week01/Day03">Day 03</a> - What is Schema, How to define Schemas</li>
+    <li><a href="./Week01/Day04">Day 04</a> - What is Schema, How to define Schemas</li>
+    <li><a href="./Week01/Day05">Day 05</a> - Topic placeholder</li>
+    <li><a href="./Week01/Day06">Day 06</a> - Topic placeholder</li>
+    <li><a href="./Week01/Day07">Day 07</a> - Topic placeholder</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>📚 Week 02</strong> <span style="font-size: 1.2em;">➕</span></summary>
+  <ul style="margin-left: 20px;">
+    <li><a href="./Week02/Day08">Day 08</a> - Topic placeholder</li>
+    <li><a href="./Week02/Day09">Day 09</a> - Topic placeholder</li>
+    <li><a href="./Week02/Day10">Day 10</a> - Topic placeholder</li>
+    <li><a href="./Week02/Day11">Day 11</a> - Topic placeholder</li>
+    <li><a href="./Week02/Day12">Day 12</a> - Topic placeholder</li>
+    <li><a href="./Week02/Day13">Day 13</a> - Topic placeholder</li>
+    <li><a href="./Week02/Day14">Day 14</a> - Topic placeholder</li>
+  </ul>
+</details>
+
+<!-- Add more weeks as necessary -->
