@@ -56,8 +56,8 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 <details>
   <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day03.txt">📅 Day 03</a></strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📑 <strong>What is Schema?</strong></li>
-    <li>✏️ <strong>How to Define Schemas</strong></li>
+    <li>📑 <strong>2 Tier Architecture with real life examples</strong></li>
+    <li>✏️ <strong>3 Tier Architecture with real life examples</strong></li>
   </ul>
 </details>
 
