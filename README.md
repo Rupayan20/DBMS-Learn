@@ -87,7 +87,7 @@ If you want to know more about SQL, please visit my [SQL Practice Repository](ht
 </details>
 
 <details>
-  <summary><strong>📅 Day 02: File System vs DBMS</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day02.txt">📅 Day 02: File System vs DBMS</a></strong></summary>
   <ul style="margin-left: 20px;">
     <li>🗂️ <strong>File System vs DBMS</strong></li>
     <li>⚠️ <strong>Disadvantages of File System</strong></li>
