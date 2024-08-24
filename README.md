@@ -31,34 +31,72 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
    
 3. **Contribute and Share**: You're encouraged to contribute by sharing your knowledge, fixing issues, or adding new exercises.
 
-### Directory Structure
+## Directory Structure
 
-```bash
-DBMS-Learn/
-├── Day01/
-│   ├── # Introduction to DBMS
-│   ├── # Example of Database             
-│   └── # Example of DBMS
-├── Day02/
-│   ├── # File System vs DBMS 
-│   ├── # Diadvantages ofFile System 
-│   └── # DBMS Advantages of File System
-├── Day03/
-│   ├── # What is Schema
-│   ├── # How to define Schemas 
-├── Day04/
-│   ├── # What is Schema 
-│   ├── # How to define Schemas
-├── Day05/
-│   ├── # 
-│   ├── # 
-│   └── # 
-...
-└── Day100/
-    ├── #
-    ├── #
-    └── #
-```
+<details>
+  <summary>📅 <strong style="font-size:1.2em;">Week 01</strong> <span style="color: #6c757d;"></span> ➕</summary>
+  <details>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day01.txt" target="_blank">📅 Day 01</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📘 <strong>Introduction to DBMS</strong></li>
+    <li>📂 <strong>Example of Database</strong></li>
+    <li>📂 <strong>Example of DBMS</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day02.txt">📅 Day 02</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🗂️ <strong>File System vs DBMS</strong></li>
+    <li>⚠️ <strong>Disadvantages of File System</strong></li>
+    <li>✅ <strong>DBMS Advantages over File System</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day03.txt">📅 Day 03</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📑 <strong>What is Schema?</strong></li>
+    <li>✏️ <strong>How to Define Schemas</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day04.txt">📅 Day 04</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📑 <strong>What is Schema?</strong></li>
+    <li>✏️ <strong>How to Define Schemas</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 05: Topic Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📝 <strong>Topic 1</strong></li>
+    <li>📝 <strong>Topic 2</strong></li>
+    <li>📝 <strong>Topic 3</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 06: Topic Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📝 <strong>Topic 1</strong></li>
+    <li>📝 <strong>Topic 2</strong></li>
+    <li>📝 <strong>Topic 3</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 07: Topic Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📝 <strong>Topic 1</strong></li>
+    <li>📝 <strong>Topic 2</strong></li>
+    <li>📝 <strong>Topic 3</strong></li>
+  </ul>
+</details>
+  
+</details>
 
 ## Contributing
 <p> We welcome contributions from the community! If you have notes, examples, or improvements to share, please submit a pull request or open an issue. </p>
@@ -69,84 +107,3 @@ DBMS-Learn/
 ## Learn SQL
 If you want to know more about SQL, please visit my [SQL Practice Repository](https://github.com/Rupayan20/SQL-Practice).
 
-
-
-
-
-## Directory Structure
-
-<details>
-  <summary>📅 <strong style="font-size:1.2em;">Week 01</strong> <span style="color: #6c757d;">(Introduction to DBMS)</span> ➕</summary>
-  <details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day01.txt" target="_blank">📅 Day 01: Introduction to DBMS</a></strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📘 <strong>Introduction to DBMS</strong></li>
-    <li>📂 <strong>Example of Database</strong></li>
-    <li>📂 <strong>Example of DBMS</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day02.txt">📅 Day 02: File System vs DBMS</a></strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🗂️ <strong>File System vs DBMS</strong></li>
-    <li>⚠️ <strong>Disadvantages of File System</strong></li>
-    <li>✅ <strong>DBMS Advantages over File System</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>📅 Day 03: Understanding Schema</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📑 <strong>What is Schema?</strong></li>
-    <li>✏️ <strong>How to Define Schemas</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>📅 Day 04: Advanced Schema Concepts</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📑 <strong>What is Schema?</strong></li>
-    <li>✏️ <strong>How to Define Schemas</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>📅 Day 05: Topic Placeholder</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📝 <strong>Topic 1</strong></li>
-    <li>📝 <strong>Topic 2</strong></li>
-    <li>📝 <strong>Topic 3</strong></li>
-  </ul>
-</details>
-
-  - 🔹 [Day 01](./Week01/Day01) - Introduction to DBMS, Example of Database, Example of DBMS
-  - 🔹 [Day 02](./Week01/Day02) - File System vs DBMS, Disadvantages of File System, DBMS Advantages over File System
-  - 🔹 [Day 03](./Week01/Day03) - What is Schema, How to define Schemas
-  - 🔹 [Day 04](./Week01/Day04) - What is Schema, How to define Schemas
-  - 🔹 [Day 05](./Week01/Day05) - Topic placeholder
-  - 🔹 [Day 06](./Week01/Day06) - Topic placeholder
-  - 🔹 [Day 07](./Week01/Day07) - Topic placeholder
-  
-</details>
-
-<details>
-  <summary>📅 <strong style="font-size:1.2em;">Week 02</strong> <span style="color: #6c757d;">(Advanced DBMS Topics)</span> ➕</summary>
-
-  - 🔹 [Day 08](./Week02/Day08) - Topic placeholder
-  - 🔹 [Day 09](./Week02/Day09) - Topic placeholder
-  - 🔹 [Day 10](./Week02/Day10) - Topic placeholder
-  - 🔹 [Day 11](./Week02/Day11) - Topic placeholder
-  - 🔹 [Day 12](./Week02/Day12) - Topic placeholder
-  - 🔹 [Day 13](./Week02/Day13) - Topic placeholder
-  - 🔹 [Day 14](./Week02/Day14) - Topic placeholder
-
-</details>
-
-
-
-## Week 01
-
-
-
-<!-- Continue with other days -->
