@@ -56,39 +56,39 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 <details>
   <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day03.txt">📅 Day 03</a></strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📑 <strong>2 Tier Architecture with real life examples</strong></li>
-    <li>✏️ <strong>3 Tier Architecture with real life examples</strong></li>
+    <li>🏗️ <strong>2 Tier Architecture with real life examples</strong></li>
+    <li>🏛️ <strong>3 Tier Architecture with real life examples</strong></li>
   </ul>
 </details>
 
 <details>
   <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day04.txt">📅 Day 04</a></strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📑 <strong>What is Schema?</strong></li>
-    <li>✏️ <strong>How to Define Schemas</strong></li>
+    <li>📜 <strong>What is Schema?</strong></li>
+    <li>🛠️ <strong>How to Define Schemas</strong></li>
   </ul>
 </details>
 
 <details>
   <summary><strong><a href="#">📅 Day 05: Coming Soon</strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📝 <strong>Three Schema Architechture</strong></li>
-    <li>📝 <strong>Three Level of Abstractions</strong></li>
+    <li>🗂️ <strong>Three Schema Architecture</strong></li>
+    <li>🎚️ <strong>Three Levels of Abstraction</strong></li>
   </ul>
 </details>
 
 <details>
   <summary><strong><a href="#">📅 Day 06: Coming Soon</strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📝 <strong>What is Data Independence</strong></li>
-    <li>📝 <strong>Logical vs Physical Indepence</strong></li>
+    <li>🔍 <strong>What is Data Independence</strong></li>
+    <li>⚖️ <strong>Logical vs Physical Independence</strong></li>
   </ul>
 </details>
 
 <details>
   <summary><strong><a href="#">📅 Day 07: Coming Soon</strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📝 <strong>Integrity Constraints in Database with example </strong></li>
+    <li>📏 <strong>Integrity Constraints in Database with example</strong></li>
   </ul>
 </details>
   
