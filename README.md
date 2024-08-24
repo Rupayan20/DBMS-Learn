@@ -70,29 +70,25 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 05: Topic Coming Soon</strong></summary>
+  <summary><strong><a href="#">📅 Day 05: Coming Soon</strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📝 <strong>Topic 1</strong></li>
-    <li>📝 <strong>Topic 2</strong></li>
-    <li>📝 <strong>Topic 3</strong></li>
+    <li>📝 <strong>Three Schema Architechture</strong></li>
+    <li>📝 <strong>Three Level of Abstractions</strong></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 06: Topic Coming Soon</strong></summary>
+  <summary><strong><a href="#">📅 Day 06: Coming Soon</strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📝 <strong>Topic 1</strong></li>
-    <li>📝 <strong>Topic 2</strong></li>
-    <li>📝 <strong>Topic 3</strong></li>
+    <li>📝 <strong>What is Data Independence</strong></li>
+    <li>📝 <strong>Logical vs Physical Indepence</strong></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 07: Topic Coming Soon</strong></summary>
+  <summary><strong><a href="#">📅 Day 07: Coming Soon</strong></summary>
   <ul style="margin-left: 20px;">
-    <li>📝 <strong>Topic 1</strong></li>
-    <li>📝 <strong>Topic 2</strong></li>
-    <li>📝 <strong>Topic 3</strong></li>
+    <li>📝 <strong>Integrity Constraints in Database with example </strong></li>
   </ul>
 </details>
   
