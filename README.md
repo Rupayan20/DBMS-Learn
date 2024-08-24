@@ -47,9 +47,8 @@ DBMS-Learn/
 │   ├── # What is Schema
 │   ├── # How to define Schemas 
 ├── Day04/
-│   ├── # 
-│   ├── # 
-│   └── #
+│   ├── # What is Schema 
+│   ├── # How to define Schemas
 ├── Day05/
 │   ├── # 
 │   ├── # 
