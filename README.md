@@ -78,7 +78,7 @@ If you want to know more about SQL, please visit my [SQL Practice Repository](ht
 <details>
   <summary>📅 <strong style="font-size:1.2em;">Week 01</strong> <span style="color: #6c757d;">(Introduction to DBMS)</span> ➕</summary>
   <details>
-  <summary><strong>[📅 Day 01: Introduction to DBMS](https://github.com/Rupayan20/DBMS-Learn/blob/main/day01.txt)</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day01.txt" target="_blank">📅 Day 01: Introduction to DBMS</a></strong></summary>
   <ul style="margin-left: 20px;">
     <li>📘 <strong>Introduction to DBMS</strong></li>
     <li>📂 <strong>Example of Database</strong></li>
