@@ -1,0 +1,11 @@
+Day-4: What is Schema | How to define Schemas 
+
+Schema: Logical representation (structures)
+        Suppose, I need a "Student" database:
+
+    Student                                                      Course
+    |--------------|-----------|--------|-----------|            |-------------|---------------|------------| 
+    |  student-id  |  roll-no  |  name  |  address  |            |  couuse-id  |  course-name  |  duration  |
+    |--------------|-----------|--------|-----------|            |-------------|---------------|------------|
+
+                          ------------------------------✗------------------------------
