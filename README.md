@@ -70,7 +70,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 05: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day05.txt">📅 Day 05</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🗂️ <strong>Three Schema Architecture</strong></li>
     <li>🎚️ <strong>Three Levels of Abstraction</strong></li>
