@@ -1,0 +1,41 @@
+Day-5: Three Schema Architechture | Three Level of Abstractions 
+
+    |-------------------|-------------------|-------------------|           
+    |  External Schema  |  External Schema  |  External Schema  |    [View Level]          
+    |-------------------|-------------------|-------------------| 
+              ↕                   ↕                    ↕
+              ↕                   ↕                    ↕
+              |----------------------------------------|          
+              |           Conceptual Schema            |     [Logical Level]      
+              |----------------------------------------|
+                                  ↕                    
+                                  ↕  
+              |----------------------------------------|          
+              |             Physical Schema            |    [Internal/Physical Level]   
+              |----------------------------------------|
+                                  ↕                    
+                                  ↕
+                                -----
+                               |-----|
+                               |-----|   
+                               |-----|    
+                               |-----|
+                               |-----|
+                               -------
+                              [Database]
+
+Example: In Facebook, we shared our data (photos, videos), but we don't know that the exact location of the server where the all data is stored. 
+
+-> External Schema: Like IRCTC, there is many interfaces for Users, Admins, Administrators.
+
+-> Conceptual Schema: We have to make first E-R model for different different view interfaces. In this scheme, we have to establish all the relations like blueprint.
+
+-> Physical Schema: This is original scheme. Here DBA (Database Administrator) decides where the data stores, how the data stores etc.
+
+-> Database: In database, we save all our data in file format. But users fetch the data, they see these data in tabular form.
+                                                     Database
+                                                  ⬋           ⬊
+                               Centralized database             Decentralized database
+                      (All data stores in one database)       (Datas store in multiple databases all over world)
+
+                            ------------------------------✗------------------------------
