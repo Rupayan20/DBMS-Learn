@@ -94,6 +94,65 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
   
 </details>
 
+<details>
+  <summary>📅 <strong style="font-size:1.2em;">Week 02: Coming Soon</strong> <span style="color: #6c757d;"></span> ➕</summary>
+
+<details>
+  <summary><strong><a href="#">📅 Day 08: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔑 <strong>What is Candidate Key with Suitable Example</strong></li>
+    <li>🔑 <strong>What is Primary Key with Suitable Example</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 09: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔑 <strong>What is Primary Key in DBMS</strong></li>
+    <li>📚 <strong>Primary Key with examples</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 10: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔗 <strong>Foreign Key in DBMS</strong></li>
+    <li>📚 <strong>Full Content with examples</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 11: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🛠️ <strong>Insert, Update & Delete from Foreign Key Table</strong></li>
+    <li>⚖️ <strong>Referential Integrity</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 12: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>❓ <strong>Question on Foreign Key</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 13: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔑 <strong>Super Key in DBMS</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 14: Coming Soon</strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🗂️ <strong>Introduction to E-R Model</strong></li>
+  </ul>
+</details>
+
+</details>
+
+
 ## Contributing
 <p> We welcome contributions from the community! If you have notes, examples, or improvements to share, please submit a pull request or open an issue. </p>
 
