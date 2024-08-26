@@ -1,0 +1,36 @@
+Day-6: What is Data Independence | Logical vs Physical Indepence
+
+              |----------------------------------------|         
+              |              View Level                | ➘           
+              |----------------------------------------|   ➘
+                                  ↕                          ➘                           
+                                  ↕                        [Logical Data Independence]
+                                  ↕                          ➚
+              |----------------------------------------|   ➚     
+              |           Conceptual Level             | ➚
+              |                                        | ➘                  
+              |----------------------------------------|   ➘
+                                  ↕                          ➘
+                                  ↕                        [Physical Data Independence]
+                                  ↕                          ➚
+              |----------------------------------------|   ➚         
+              |             Physical Level             | ➚     
+              |----------------------------------------|
+                                  ↕                    
+                                  ↕
+                                -----
+                               |-----|
+                               |-----|   
+                               |-----|    
+                               |-----|
+                               |-----|
+                               -------
+                              [Database]
+
+In database, data is modified (insert, delete, update), storage structure is changed; but for that reason our view level is not effected. Users don't know even that.
+Same as for physical schema, conceptual schema is not effected.
+Same as for conceptual schema, view level is not effected.
+
+Advantage: Trasparency
+
+                    ------------------------------✗------------------------------
