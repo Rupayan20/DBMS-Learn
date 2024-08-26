@@ -78,7 +78,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 06: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day06.txt">📅 Day 06</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🔍 <strong>What is Data Independence</strong></li>
     <li>⚖️ <strong>Logical vs Physical Independence</strong></li>
