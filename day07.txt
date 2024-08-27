@@ -1,0 +1,14 @@
+Day-7: Integrity Constraints in Database with example 
+
+- These are rules defined in a database to maintain the data security, consistency and reliability.
+- They ensure that the data stored in the database follows predefined rules or conditions.
+
+       Integrity                                               ⬋⟵ ⟵ ⟵ ⟵ ⟵  Constraints ⟶   ⟶ ⬊
+          ⬇                                                  ⬋                         ⬇                 ⬊
+   Domain Constraints                                     Entity                   Referential            Key
+(student name, age etc.)                           Integrity Constraints     Integrity Constraints    Constraints
+                                               (Primary key, value not null)      (Foreign key)       (Unique key) 
+                                                                                                            ⬇
+                                                                                                     (Candidate key)
+                    
+                    ------------------------------✗------------------------------
