@@ -86,7 +86,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 07: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day07.txt">📅 Day 07</strong></summary>
   <ul style="margin-left: 20px;">
     <li>📏 <strong>Integrity Constraints in Database with example</strong></li>
   </ul>
