@@ -1,0 +1,22 @@
+Day-8: What is Candidate Key and Primary Key | Full Concept | Most Suitable Example
+
+Key: It is a normal attribute.
+Use: Uniquely identify.
+
+Example: 
+Suppose we have a table named "Student" with the following attributes: name, address, school
+
+ Student                                                      
+    |----------|-----------|---------------|          
+    |   name   |  address  |    School     |   
+    |----------|-----------|---------------|
+    |    Rup   |  Agarpara | Sikshaniketan |
+    |----------|-----------|---------------|
+    |  Rupayan |   Fulia   | Sikshaniketan |
+    |----------|-----------|---------------|
+    |  Rupayan |    Fulia  | Sikshaniketan |
+    |----------|-----------|---------------|
+
+    Here, both Rupayan same or not, we know that using Unique key (like: Enrollment No, Aadhar No, PAN etc.) will
+
+                    ------------------------------✗------------------------------
