@@ -95,10 +95,10 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary>📅 <strong style="font-size:1.2em;">Week 02: Coming Soon</strong> <span style="color: #6c757d;"></span> ➕</summary>
+  <summary>📅 <strong style="font-size:1.2em;">Week 02</strong> <span style="color: #6c757d;"></span> ➕</summary>
 
 <details>
-  <summary><strong><a href="#">📅 Day 08: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day08.txt">📅 Day 08</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🔑 <strong>What is Candidate Key with Suitable Example</strong></li>
     <li>🔑 <strong>What is Primary Key with Suitable Example</strong></li>
