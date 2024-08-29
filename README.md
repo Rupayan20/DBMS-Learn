@@ -106,7 +106,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 09: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day09.txt">📅 Day 09</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🔑 <strong>What is Primary Key in DBMS</strong></li>
     <li>📚 <strong>Primary Key with examples</strong></li>
