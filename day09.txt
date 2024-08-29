@@ -1,0 +1,15 @@
+Day-9: What is Primary Key in DBMS | Primary Key with examples            
+
+Primary Key: {Unique Key + Not Null}
+
+Example: If we consider the school management system; in a family, two members of child use same phone number. 
+        They don't have email id, Aadhar number yet. So, in this case, Registration number or Enrollment number is primary key.
+        In the management system, they give the primary key to the users. 
+        
+In database, Candidate key > 1;
+             Primary key = 1
+
+Another Example, when we applied for new Aadhar, then in their databse our all data is stored.
+                 And given Aadhar number (or, Unique Application Id) is primary key there.
+
+             ------------------------------✗------------------------------
