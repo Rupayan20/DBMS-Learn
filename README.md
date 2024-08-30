@@ -114,7 +114,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 10: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day10.txt">📅 Day 10</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🔗 <strong>Foreign Key in DBMS</strong></li>
     <li>📚 <strong>Full Content with examples</strong></li>
