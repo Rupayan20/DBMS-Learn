@@ -1,0 +1,41 @@
+Day-10: Foreign Key in DBMS | Full Content with examples 
+
+Foreign Key: It is an attribute or set of attributes that references to Primary key of same table or another table.
+Advantage: Maintains referential integrity. (***)
+
+Example:
+Suppose we have a table named "Student" with the following attributes: roll-no, name, address
+       and "Course" table with the following attributes: course-id, course-name, roll-no. 
+
+ Student (Reference Table)                                                           Course (Referencing Table)             
+    |----------|-----------|---------------|                          |------------|---------------|---------------| 
+    |  roll-no |    name   |    address    |                          |  course-id |  course-name  |    roll-no    |  
+    |----------|-----------|---------------|                          |------------|---------------|---------------|
+    |    01    |     Rup   |    Agarpara   |                          |    C-001   |      DBMS     |       01      |
+    |----------|-----------|---------------|                          |------------|---------------|---------------|
+    |    02    |  Rupayan  |     Fulia     |                          |    C-002   |       OS      |       03      |
+    |----------|-----------|---------------|                          |------------|---------------|---------------|
+    |    03    |    Rupu   |     Newtown   |
+    |----------|-----------|---------------|     
+
+Here, Primary Key= roll-no of "Student" table
+      Foreign Key= roll-no of "Course" table
+
+Sysntax:
+-> Creating a table named "Course":
+
+            create table Course 
+            (
+                course-id varchar(10),
+                course-name varchar(20),
+                roll-no int references Student (roll-no)
+            );
+
+-> Altering the "Course" table to add a foreign key constraint:
+
+          alter table Course
+          add constraint
+          foreign key (roll-no) 
+          references Student (roll-no);
+
+             ------------------------------✗------------------------------
