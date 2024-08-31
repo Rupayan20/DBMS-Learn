@@ -1,0 +1,40 @@
+Day 11: Insert, Update & Delete from foreign key table | Referential Integrity
+
+Example:
+Suppose we have a table named "Student" with the following attributes: roll-no, name, address
+       and "Course" table with the following attributes: course-id, course-name, roll-no. 
+
+            Student (Reference Table)                                                Course (Referencing Table)             
+               ----------------------------------------                                 ---------------------------------------------- 
+               |  roll-no |    name   |    address    |                                 |  course-id |  course-name  |    roll-no    |  
+               |----------|-----------|---------------|                                 |------------|---------------|---------------|
+               |    01    |     Rup   |    Agarpara   |                                 |    C-001   |      DBMS     |       01      |
+               |----------|-----------|---------------|                                 |------------|---------------|---------------|
+               |    02    |  Rupayan  |     Fulia     |                                 |    C-002   |       OS      |       03      |
+               |----------|-----------|---------------|                                 |------------|---------------|---------------|
+               |    03    |    Rupu   |     Newtown   |                 Insert Later->  |    C-003   |       DSA     |       07      |
+               |----------|-----------|---------------|                                 ---------------------------------------------- 
+Insert Later-> |    04    |    Rupi   |   Salt Lake   | 
+               ----------------------------------------
+
+       Here, we inserted one data in "Course" table, but in "Student" table there is no student presents whose roll-no is 07. It may causes violation.
+
+    |-------------------------------------------|--------------------------------------------------|   
+    |           Reference Table                 |            Referencing Table                     |
+    |-------------------------------------------|--------------------------------------------------|
+    | i) for INSERT -> No violation             | i) for INSERT -> May cause violation             |
+    |-------------------------------------------|--------------------------------------------------| 
+    | ii) for DELETE -> May cause violation     | ii) for DELETE -> No violation                   |
+    |        To avoid this use:                 |                                                  |
+    |                 1. ON DELETE CASCADE;     |                                                  |
+    |                 2. ON DELETE SET NULL;    |                                                  |
+    |                 3. ON DELETE NO ACTION;   |                                                  |
+    |-------------------------------------------|--------------------------------------------------|
+    | iii) for UPDATE -> May cause violation    | iii) for UPDATE -> May cause violation           |
+    |        To avoid this use:                 |                    for Foreign Key               |
+    |                 1. ON UPDATE CASCADE;     |                                                  |
+    |                 2. ON UPDATE SET NULL;    |                                                  |
+    |                 3. ON UPDATE NO ACTION;   |                                                  |
+    |-------------------------------------------|--------------------------------------------------|
+    
+                  ------------------------------✗------------------------------    
