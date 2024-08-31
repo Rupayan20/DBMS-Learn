@@ -122,7 +122,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 11: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day11.txt">📅 Day 11</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🛠️ <strong>Insert, Update & Delete from Foreign Key Table</strong></li>
     <li>⚖️ <strong>Referential Integrity</strong></li>
