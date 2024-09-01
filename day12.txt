@@ -1,0 +1,34 @@
+Day 12: Question on Foreign Key
+
+Question: Let R1(a,b,c) and R2(x,y,z) be two relations in which 'a' is Foreign key in R1 that refers to Primary key of R2. 
+           Consider four options:
+                A) Insert into R1,       C) Delete from R1,
+                B) Insert into R2,       D) Delete from R2
+
+Which is correct regarding referential integrity?
+1) Option A) and B) will cause violation 
+2) Option B) and C) will cause violation 
+3) Option C) and D) will cause violation 
+4) Option D) and A) will cause violation
+
+Answer:
+        R1 (Referencing Table)                        R2 (Reference Table)                                                   
+        |-----------------------|                     |-----------------------|                  
+        |   a   |   b   |   c   |                     |   x   |   y   |   z   |            
+        |-----------------------|                     |-----------------------|                 
+                                                                     
+A) Insert in R1: In the case of inserting a row into R1, the value of 'a' should exist in the column with the primary key of R2 being referenced. 
+                 Had the value of 'a' in R1 not existed in the column with the primary key of R2, then this would mean a violation of referential integrity.    
+
+B) Insert in R2: Provided that the values entered in R2's primary key are unique, insertion into R2 should not result in any violation. 
+                 This alone does not impact referential integrity with respect to R1 in any direct way.
+
+C) Delete from R1: It will not violate referential integrity when a row from R1 is deleted because it simply eliminates the reference to R2. 
+                   This action reduces the number of foreign key references without breaking the referential integrity rule.
+
+D) Delete from R2: For example, if we delete some row from R2, and the primary key in that row is referred to by any row in R1 through the foreign key 'a', this would cause a referential integrity violation. 
+                   This is because R1 now has a foreign key value that no longer exists in the referenced table R2.
+
+                   so, 4) Option D) and A) will cause violation  
+
+                         ------------------------------✗------------------------------                                         
