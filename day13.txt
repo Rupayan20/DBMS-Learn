@@ -1,0 +1,27 @@
+Day 13: Super Key in DBMS
+
+- It is a combination of all possible attributes which can uniquely identify two tupples in a table.
+  Super key= Candidate key + Other attributes
+
+  Let R1(A1, A2, A3, ...., An) be the relation and
+  Total number of attributes = n; 
+  Total number of Candidate key = k; 
+  Then possibilities of Super key = 2^(n−k)
+
+Example: 
+ Student (Reference Table)                                                                   
+    |----------|-----------|---------------|                           
+    |  roll-no |    name   |    address    |                        
+    |----------|-----------|---------------|                         
+    |    01    |     Rup   |    Agarpara   |                      
+    |----------|-----------|---------------|                          
+    |    02    |  Rupayan  |     Fulia     |   
+    |----------|-----------|---------------|
+    
+    Here Candidate key = roll-no and 
+         Other Attributes = name and address
+
+    possibilities of Super key = 2^(n−1) = 2^(3-1) = 4
+    So, Super key= {roll-no}, {roll-no, name}, {roll-no, age}, {roll-no, name, address}
+
+                ------------------------------✗------------------------------  
