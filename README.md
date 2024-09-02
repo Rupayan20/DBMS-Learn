@@ -130,14 +130,14 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 12: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day12.txt">📅 Day 12</strong></summary>
   <ul style="margin-left: 20px;">
     <li>❓ <strong>Question on Foreign Key</strong></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 13: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day13.txt">📅 Day 13</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🔑 <strong>Super Key in DBMS</strong></li>
   </ul>
