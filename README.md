@@ -144,11 +144,68 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#">📅 Day 14: Coming Soon</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day14.txt">📅 Day 14</strong></summary>
   <ul style="margin-left: 20px;">
     <li>🗂️ <strong>Introduction to E-R Model</strong></li>
   </ul>
 </details>
+
+<details>
+  <summary>📅 <strong style="font-size:1.2em;">Week 03: Coming Soon</strong> <span style="color: #6c757d;"></span> ➕</summary>
+
+<details>
+  <summary><strong><a href="#">📅 Day 15: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔍 <strong>Types of Attributes in E-R Model</strong> | Full Concept</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 16: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔗 <strong>One to One Relationship in DBMS</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 17: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔗 <strong>One to Many Relationship in DBMS</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 18: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔗 <strong>Many to Many Relationship in DBMS</strong></li>
+    <li>🔗 <strong>M-N Relationship</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 19: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>❓ <strong>Question to Minimize Tables in E-R</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 20: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>📚 <strong>Introduction to Normalization</strong></li>
+    <li>🔗 <strong>Insertion, Deletion & Update Anomaly</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#">📅 Day 21: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔍 <strong>First Normal Form in DBMS</strong></li>
+  </ul>
+</details>
+
+</details>
+
 
 </details>
 
