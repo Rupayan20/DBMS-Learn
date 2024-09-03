@@ -207,9 +207,6 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 
-</details>
-
-
 ## Contributing
 <p> We welcome contributions from the community! If you have notes, examples, or improvements to share, please submit a pull request or open an issue. </p>
 
