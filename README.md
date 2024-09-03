@@ -34,117 +34,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 ## Directory Structure
 
 <details>
-  <summary>📅 <strong style="font-size:1.2em;">Week 01</strong> <span style="color: #6c757d;"></span> ➕</summary>
-  <details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day01.txt" target="_blank">📅 Day 01</a></strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📘 <strong>Introduction to DBMS</strong></li>
-    <li>📂 <strong>Example of Database</strong></li>
-    <li>📂 <strong>Example of DBMS</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day02.txt">📅 Day 02</a></strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🗂️ <strong>File System vs DBMS</strong></li>
-    <li>⚠️ <strong>Disadvantages of File System</strong></li>
-    <li>✅ <strong>DBMS Advantages over File System</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day03.txt">📅 Day 03</a></strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🏗️ <strong>2 Tier Architecture with real life examples</strong></li>
-    <li>🏛️ <strong>3 Tier Architecture with real life examples</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day04.txt">📅 Day 04</a></strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📜 <strong>What is Schema?</strong></li>
-    <li>🛠️ <strong>How to Define Schemas</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day05.txt">📅 Day 05</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🗂️ <strong>Three Schema Architecture</strong></li>
-    <li>🎚️ <strong>Three Levels of Abstraction</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day06.txt">📅 Day 06</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🔍 <strong>What is Data Independence</strong></li>
-    <li>⚖️ <strong>Logical vs Physical Independence</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day07.txt">📅 Day 07</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>📏 <strong>Integrity Constraints in Database with example</strong></li>
-  </ul>
-</details>
-  
-</details>
-
-<details>
-  <summary>📅 <strong style="font-size:1.2em;">Week 02</strong> <span style="color: #6c757d;"></span> ➕</summary>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day08.txt">📅 Day 08</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🔑 <strong>What is Candidate Key with Suitable Example</strong></li>
-    <li>🔑 <strong>What is Primary Key with Suitable Example</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day09.txt">📅 Day 09</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🔑 <strong>What is Primary Key in DBMS</strong></li>
-    <li>📚 <strong>Primary Key with examples</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day10.txt">📅 Day 10</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🔗 <strong>Foreign Key in DBMS</strong></li>
-    <li>📚 <strong>Full Content with examples</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day11.txt">📅 Day 11</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🛠️ <strong>Insert, Update & Delete from Foreign Key Table</strong></li>
-    <li>⚖️ <strong>Referential Integrity</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day12.txt">📅 Day 12</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>❓ <strong>Question on Foreign Key</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day13.txt">📅 Day 13</strong></summary>
-  <ul style="margin-left: 20px;">
-    <li>🔑 <strong>Super Key in DBMS</strong></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day14.txt">📅 Day 14</strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day14.txt">📅 Day 14</a></strong></summary>
   <ul style="margin-left: 20px;">
     <li>🗂️ <strong>Introduction to E-R Model</strong></li>
   </ul>
@@ -178,7 +68,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
   <summary><strong><a href="#">📅 Day 18: Coming Soon</a></strong></summary>
   <ul style="margin-left: 20px;">
     <li>🔗 <strong>Many to Many Relationship in DBMS</strong></li>
-    <li>🔗 <strong>M-N Relationship</li>
+    <li>🔗 <strong>M-N Relationship</strong></li>
   </ul>
 </details>
 
@@ -205,6 +95,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 </details>
+
 
 
 ## Contributing
