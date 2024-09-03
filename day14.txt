@@ -1,0 +1,30 @@
+Day 14: Introduction to E-R Model
+
+- The E-R model is used for logical representation. It's just like a blueprint.
+
+Example: Suppose we have a table named "Student" with the following attributes: roll-no, name, address
+         and "Course" table with the following attributes: course-id, course-name, roll-no. 
+
+                    Entity-relationship Model
+                                ⬇
+         +-----------+         _____          +-----------+
+         |  Student  |<------>/Study\<------->|   Course  |
+         +-----------+        \_____/         +-----------+
+           [Entity]        [Relationship]      [Entity]
+                  
+We denote these following way:   
+
+ +-----------+
+ |  Entity   |
+ +-----------+  
+
+  _______________
+ /  Relationship \  
+ \_______________/   
+
+   _________
+  /         \
+ ( Attribute )
+  \_________/
+
+                ------------------------------✗------------------------------  
