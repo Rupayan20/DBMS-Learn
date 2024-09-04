@@ -1,0 +1,117 @@
+Day 15: Types of Attributes in E-R Model | Full Concept 
+
+-> Types of Attributes:
+
+        i) Single vs Multivalue Attributes: A single-valued attribute is an attribute that can hold only a single value for a particular entity in an entity set.
+                                            A multivalued attribute is an attribute that can hold multiple values for a particular entity.
+
+                                                                 _____________
+           _________                +-----------+               /  _________  \
+       /              \  <--------> |  Student  | <----------> /  /         \  \
+      ( Enrollment No. )            +-----------+             (   ( Phone No.) )
+       \   _________  /                   ^                    \   \_________/  /
+                                          |                     \_____________ /
+                                          |
+                                          ˅
+                                    _____________
+                                   /             \
+                                  /   _________   \
+                                 (   ( Address )   )
+                                 \   \_________/  /
+                                  \_____________ /
+
+
+        ii) Simple vs Comprise Attributes: A simple attribute is an attribute that cannot be divided further into smaller parts. It is atomic, meaning it represents a single piece of information about an entity.
+                                           A composite attribute is an attribute that can be divided into smaller subparts, which represent more basic attributes with independent meanings.
+                                                                                       
+           _________                +-----------+                  _________  
+       /              \  <--------> |  Student  | <---------->    /         \  
+      ( Enrollment No. )            +-----------+                (  Address  ) 
+       \   _________  /                   ^                       \_________/  
+                                          |                      ⬋     ⬇    ⬊
+                                          |                   City  District  State
+                                          ˅
+                                      _________ 
+                                     /         \  
+                                    ( Full name )   
+                                     \_________/ 
+                                    ⬋     ⬇     ⬊
+                                 First   Middle  Last 
+                                 Name     Name   Name 
+
+
+        iii) Stored vs Derived Attributes: A stored attribute is an attribute whose value is physically stored in the database. It represents actual data that is directly entered and maintained by users.
+                                           A derived attribute is an attribute whose value is not stored directly in the database. Instead, it is derived or calculated from other stored attributes.
+
+           _________                +-----------+                  _________  
+       /              \  <--------> |  Student  | <---------->    /         \  
+      ( Date of Birth  )            +-----------+                (    Age    ) 
+       \   _________  /                                           \_________/  
+                                                                       ⬇    
+                                                            Derived from "Date of Birth"                             
+
+
+        iv) Key vs Non-Key Attributes: A key attribute (or simply a key) is an attribute (or a combination of attributes) that uniquely identifies each tuple (record) in a relation (table). It ensures that no two rows have the same value(s) for the key attribute(s).
+                                       Non-key attributes are the attributes that are not part of any candidate key or primary key of a table. They provide additional information about the entity but do not contribute to uniquely identifying the records.
+
+          ____________                  +------------+                  _________  
+        /             \   <--------->   |   Student   |  <--------->   /         \
+       ( Date of Birth )                +------------+                (    Age    )
+        \_____________/                       ^                        \_________/ 
+                                              |
+         _________                            |                           _________  
+       /           \                          |                         /          \
+      (   Gender    )                         |                        (  Address   )
+       \___________/                          ˅                         \__________/   
+                                           _________  
+                                          /         \
+                                         (   RollNo  )        
+                                          \_________/
+                                         [Key Attribute]
+
+
+        v) Required vs Optimal Attribute: Attributes that must have a value for every instance of an entity. These attributes are crucial for defining the entity and cannot be left empty or null.
+                                           Attributes that may or may not have a value for an instance of an entity. These attributes are not mandatory and can be left empty or null.
+
+          ____________                  +------------+                  _________  
+        /             \   <--------->   |   Student   |  <--------->   /         \
+       ( Family Income )                +------------+                (    Age    )
+        \_____________/                       ^                        \_________/ 
+                                              |
+         _________                            |                           _________  
+       /           \                          |                         /          \
+      (   Email     )                         |                        (  Address   )
+       \___________/                          ˅                         \__________/   
+                                           _________  
+                                          /         \
+                                         (   RollNo  )        
+                                          \_________/
+                                          [Required]
+ 
+ 
+        vi) Complex Attribute: A Complex Attribute in an Entity-Relationship (E-R) model is an attribute that is composed of multiple sub-attributes, 
+                                which can be either simple or composite. Essentially, a complex attribute is a combination of  "composite and multivalued" attributes.
+
+                                         +-----------+
+                                         |  Student  |
+                                         +-----+-----+
+                                               |
+                                               ˅
+                                        +------|------+
+                                        | ContactInfo |
+                                        +------|------+
+                                               |
+                                               ˅
+                               +---------------+------------------+
+                               |                                   |
+                               ˅                                   ˅
+                         +-----------+                    +-----------------+
+                         |  Address  |                    |     Phone No.   | 
+                         +-----------+                    +-----------------+
+                        /     |       \                   /         |        \
+                        ˅     ˅       ˅                   ˅         ˅        ˅
+              +-------+    +------+  +-----+        +------+     +------+      +--------+
+              |Street |    | City |  | PIN |        | Home |     | Work |      | Mobile |
+              +-------+    +------+  +-----+        +------+     +------+      +--------+
+
+                         ------------------------------✗------------------------------
