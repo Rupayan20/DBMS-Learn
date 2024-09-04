@@ -146,10 +146,10 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary>📅 <strong style="font-size:1.2em;">Week 03: Coming Soon</strong> <span style="color: #6c757d;"></span> ➕</summary>
+  <summary>📅 <strong style="font-size:1.2em;">Week 03</strong> <span style="color: #6c757d;"></span> ➕</summary>
 
   <details>
-    <summary><strong><a href="#">📅 Day 15: Coming Soon</a></strong></summary>
+    <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day15.txt">📅 Day 15</a></strong></summary>
     <ul style="margin-left: 20px;">
       <li>🔍 <strong>Types of Attributes in E-R Model</strong> | Full Concept</li>
     </ul>
