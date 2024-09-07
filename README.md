@@ -170,7 +170,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
   </details>
 
   <details>
-    <summary><strong><a href="#">📅 Day 18: Coming Soon</a></strong></summary>
+    <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day18.txt">📅 Day 18</a></strong></summary>
     <ul style="margin-left: 20px;">
       <li>🔗 <strong>Many to Many Relationship in DBMS</strong></li>
       <li>🔗 <strong>M-N Relationship</strong></li>
