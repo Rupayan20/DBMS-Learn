@@ -1,0 +1,39 @@
+Day 18: Many to Many Relationship in DBMS | M-N Relationship
+
+         +------------+     M     _______      M     +-----------+
+         |  Student   | <------> / Study \ <-------> |   Course  |
+         +------------+          \_______/           +-----------+
+
+            Student                                                                  Course             
+               ----------------------------------------                                 ---------------------------------------------- 
+               |  roll-no |    name   |    address    |                                 |  course-id |  course-name  |    credit     |  
+               |----------|-----------|---------------|                                 |------------|---------------|---------------|
+               |    01    |    Rup    |    Agarpara   |                                 |    C-001   |      DBMS     |       03      |
+               |----------|-----------|---------------|                                 |------------|---------------|---------------|
+               |    02    |  Rupayan  |     Fulia     |                                 |    C-002   |       OS      |       03      |
+               |----------|-----------|---------------|                                 |------------|---------------|---------------|
+               |    03    |    Rup    |     Newtown   |                                 |    C-003   |       DSA     |       02      |
+               |----------|-----------|---------------|                                 ----------------------------------------------
+               |    04    |    Rupu   |   Salt Lake   |                                 |    C-004   |      OOPS     |       01      |
+               -----------|-----------|---------------|                                 ----------------------------------------------
+               |    05    |   Rupuu   |  Shyamnagar   |
+               -----------|-----------|---------------|
+
+                                                          Study
+                                                            -------------------------- 
+                                                            |  roll-no |  course-id  |  
+                                                            |----------|-------------|
+                                                            |    01    |    C-001    |
+                                                            |----------|-------------|
+                                                            |    02    |    C-002    |
+                                                            |----------|-------------|
+                                                            |    01    |    C-002    |
+                                                            |----------|-------------|
+                                                            |    03    |    C-003    |
+                                                            |----------|-------------|
+
+In the "Study" table, neither roll-no nor course-id alone serves as a primary key. However, together as a composite key (roll-no, course-id), they uniquely identify each record.
+
+In an M-N relationship, the use of this composite key prevents any reduction in the relationship table, ensuring data integrity and uniqueness of each combination of roll-no and course-id.
+
+                                         ------------------------------✗------------------------------
