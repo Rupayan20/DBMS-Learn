@@ -1,0 +1,59 @@
+Day 19: Question to Minimize tables in E-R
+
+Question> What is minimum number of tables required to represent this E-R Model to Relational Model?
+                  A) 2           B) 3
+                  C) 4           D) 5
+                    ______
+                   /  R1  \  
+                   \______/ 
+                  /       \
+               1 /         \ M
+                /           \
+       +------+              +------+
+       |  E1  |              |  E2  |
+       +------+              +------+
+        |      \            /      |
+        |     M \          / N     |
+       (A)       \        /       (B)
+                   ______
+                  /  R2  \  
+                  \______/
+
+Ans> Here, A and B -> Attributes
+           E1 and E2 -> Entities
+           R1 and R2 -> Relations
+
+Entities and Relationships:
+E1: Entity 1 with attribute A (primary key)
+E2: Entity 2 with attribute B (primary key)
+R1: 1-to-many relationship between E1 and E2
+R2: many-to-many relationship between E1 and E2
+
+Reducing Tables:
+To represent the ER model in a relational model, we need to reduce the number of tables.
+
+i) R1 Relationship:
+In a 1-to-many relationship, the primary key is on the "many" side.
+In this case, the primary key is B, which is in E2.
+We can combine E1 and R1 into one table because both have the same primary key B.
+
+ii) R2 Relationship
+In a many-to-many relationship, the primary key is a combination of both entities.
+In this case, the primary key is a combination of A and b.
+We cannot reduce R2 into a single table because it requires both A and B as primary keys.
+
+After reducing the tables, we have:
+
+|-------|--------------------|
+| Table |    Description     |
+|-------|--------------------|
+|   T1  |        E1          |
+|-------|--------------------|
+|   T2  | R1 and E2 combined |
+|-------|--------------------|
+|   T3  |        R2          |
+|-------|--------------------|
+
+The minimum number of tables required is B) 3.
+
+         ------------------------------✗------------------------------
