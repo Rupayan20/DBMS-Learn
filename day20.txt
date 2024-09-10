@@ -1,0 +1,58 @@
+Day 20: Introduction to Normalization | Insertion, Deletion & Updation Anomaly 
+
+-> Normalization: It is a technique to remove or reduce redundancy from a table. 
+
+-> Two types: i) Row Level
+              ii) Column Level
+
+i) Row Level:
+            Student                                                                 
+               ----------------------------------------                                 
+               |  roll-no |    name   |    address    |                                  
+               |----------|-----------|---------------|                                 
+               |    01    |    Rup    |    Agarpara   |                                
+               |----------|-----------|---------------|                                
+               |    02    |  Rupayan  |     Fulia     |  
+               |----------|-----------|---------------|
+               |    03    |    Rup    |     Newtown   |                                 
+               |----------|-----------|---------------|                                
+               |    04    |    Rupu   |   Salt Lake   |                                 
+               -----------|-----------|---------------|                                
+               |    05    |   Rupuu   |  Shyamnagar   |
+               -----------|-----------|---------------|
+
+ii) Column Level:
+     college
+         |----------------|------------------|---------------|------------------|----------------|------------------|------------------|
+         |   student-id   |   student-name   |   course-id   |   subject-name   |   faculty-id   |   faculty-name   |   class-timing   |  
+         |----------------|------------------|---------------|------------------|----------------|------------------|------------------|
+         |       01       |        Rup       |       C1      |       DBMS       |      F001      |        I.M       |    14:30-15:15   |
+         |----------------|------------------|---------------|------------------|----------------|------------------|------------------|
+         |       02       |      Rupayan     |       C1      |       OS         |      F002      |        S.B       |    11:15-12:30   |
+         |----------------|------------------|---------------|------------------|----------------|------------------|------------------|
+         |       03       |        Rup       |       C2      |      OOPS        |      F003      |        G.D       |    15:15-16:30   |
+         |----------------|------------------|---------------|------------------|----------------|------------------|------------------|
+         |       04       |        Rupu      |       C3      |       DSA        |      F001      |        I.M       |    10:15-11:15   |
+         |----------------|------------------|---------------|------------------|----------------|------------------|------------------|
+
+
+-> Problems we faced in: i) Insertion Anomaly, 
+                      ii) Deletion Anomaly & 
+                      iii) Updation Anomaly
+
+i) When we insert new-course, faculty-name in the database; then what is the value of student-id?
+   Because student-id is already in the database. And also we can't move forward without putting the student-id -> Insertion Anomaly
+
+ii) When we want to delete some value of students (suppose column 2), 
+    then the whole column is deleted with course and faculty details which is important -> Deletion Anomaly
+
+iii) When we want to update some particular attribute valus, this is very hettic (like class-timing). 
+     When we change faculty-id F1's timing for course-id C1, then also C4 is updated automatically in the database -> Updation Anomaly
+
+Solution: Reduction of the entire database.
+
+                          college
+                       ⬋    ⬇     ⬊
+                student   course    faculty                 
+
+                 ------------------------------✗------------------------------
