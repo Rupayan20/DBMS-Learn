@@ -178,14 +178,14 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
   </details>
 
   <details>
-    <summary><strong><a href="#">📅 Day 19: Coming Soon</a></strong></summary>
+    <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day19.txt">📅 Day 19</a></strong></summary>
     <ul style="margin-left: 20px;">
       <li>❓ <strong>Question to Minimize Tables in E-R</strong></li>
     </ul>
   </details>
 
   <details>
-    <summary><strong><a href="#">📅 Day 20: Coming Soon</a></strong></summary>
+    <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day20.txt">📅 Day 20</a></strong></summary>
     <ul style="margin-left: 20px;">
       <li>📚 <strong>Introduction to Normalization</strong></li>
       <li>🔗 <strong>Insertion, Deletion & Update Anomaly</strong></li>
