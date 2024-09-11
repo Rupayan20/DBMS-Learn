@@ -1,0 +1,75 @@
+Day 21: First Normal Form in DBMS
+
+Rule: i) Table just not contain any multivalued attributes.
+
+Example:
+            Student                                                                 
+               ----------------------------------------                                 
+               |  roll-no |    name   |   subjects    |                                  
+               |----------|-----------|---------------|                                 
+               |    01    |    Rup    |    DBMS, OS   |                                
+               |----------|-----------|---------------|                                
+               |    02    |  Rupayan  |      OOPS     |    
+               |----------|-----------|---------------|
+               |    03    |    Rup    |       DSA     |                                 
+               |----------|-----------|---------------|    
+                          [Main Database]        
+
+In 1NF:
+i) First way to represent in 1NF:
+
+            Student                                                                 
+               ----------------------------------------                                 
+               |  roll-no |    name   |   subjects    |                                  
+               |----------|-----------|---------------|                                 
+               |    01    |    Rup    |      DBMS     |                                
+               |----------|-----------|---------------|   
+               |    01    |    Rup    |       OS      |
+               |----------|-----------|---------------|
+               |    02    |  Rupayan  |      OOPS     |    
+               |----------|-----------|---------------|
+               |    03    |    Rup    |       DSA     |                                 
+               |----------|-----------|---------------|                    
+            
+        here, Primary Key = roll_no + subjects (Composite Key)
+
+
+ii) Second way to represent in 1NF:
+
+            Student                                                                 
+               --------------------------------------------------------                                
+               |  roll-no |    name   |  subject-1    |  subject-1    |                                  
+               |----------|-----------|---------------|---------------|                                
+               |    01    |    Rup    |      DBMS     |      OS       |                               
+               |----------|-----------|---------------|---------------|
+               |    02    |  Rupayan  |      OOPS     |     Null      |
+               |----------|-----------|---------------|---------------|
+               |    03    |    Rup    |       DSA     |     Null      |                              
+               |----------|-----------|---------------|---------------|                    
+            
+        here, Primary Key = roll_no 
+
+        Disadvantage: Suppose one student enrolled in more than one courses and another student enrolling just in one.
+                      So in database, maximum null values are presented.
+
+
+iii) Third way to represent in 1NF:
+
+            Reference Table                                  Referencing Table                
+               ------------------------                          --------------------------------                                
+               |  roll-no |    name   |                          |    roll-no    |   subject    |                                  
+               |----------|-----------|                          |---------------|--------------|                                
+               |    01    |    Rup    |                          |       01      |     DBMS     |                               
+               |----------|-----------|                          |---------------|--------------|
+               |    02    |  Rupayan  |                          |       01      |      OS      |
+               |----------|-----------|                          |---------------|--------------|
+               |    03    |    Rup    |                          |       02      |     OOPS     |                              
+               |----------|-----------|                          |---------------|--------------|  
+        here, Primary Key = roll_no                              |       03      |      DSA     | 
+                                                                 |---------------|--------------|                
+                                                            here, Foreign Key = roll_no 
+                                                                  Primary Key = roll_no + subjects (Composite Key)
+
+third is better way to represnt the 1NF than first and second ways.
+
+                      ------------------------------✗------------------------------
