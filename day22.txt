@@ -1,0 +1,31 @@
+Day 22: Finding Closure of Functional Dependency in DBMS | Easiest & Simplest Way 
+
+-> Candidate Key:
+
+i) R(ABCD)
+ FD {A->B, B->C, C->D}
+A+ = BCDA;   B+ = BCD;   C+ = D;   D
+
+So, A is the candidate key of R(ABCD)
+Primary Attribute = A
+Non-primary Attributes = B, C, D
+
+ii) R(ABCD)
+ FD {A->B, B->C, C->D, D->A}
+A+ = BCDA;   B+ = CDAB;   C+ = DABC;   D+ = ABCD
+
+So, A, B, C, D ARE the candidate keyS of R(ABCD)
+Primary Attributes = A, B, C, D
+Non-primary Attribute = None
+
+iii) R(ABCDE)
+ FD {A->B, BC->D, E->C, D->A}
+E = BDCAE
+
+E+ = EC;   AE+ = ABECD;   BE+ = BECDA;   CE+ = CE;   DE+ = DECAB
+
+So, AE, BE, DE ARE the candidate key of R(ABCDE)
+Primary Attributes = A, B, D, E
+Non-primary Attributes = C
+
+                ------------------------------✗------------------------------
