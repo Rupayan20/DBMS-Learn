@@ -193,13 +193,75 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
   </details>
 
   <details>
-    <summary><strong><a href="#">📅 Day 21: Coming Soon</a></strong></summary>
+    <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day21.txt">📅 Day 21</a></strong></summary>
     <ul style="margin-left: 20px;">
       <li>🔍 <strong>First Normal Form in DBMS</strong></li>
     </ul>
   </details>
 
 </details>
+
+
+<details>
+  <summary>📅 <strong style="font-size:1.2em;">Week 04</strong> <span style="color: #6c757d;"></span> ➕</summary>
+
+<details>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day22.txt" target="_blank">📅 Day 22</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔍 <strong>Finding Closure of Functional Dependency in DBMS</strong></li>
+    <li>✏️ <strong>Easiest & Simplest Way</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#" target="_blank">📅 Day 23: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🧩 <strong>Functional Dependencies & Its Properties in DBMS</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#" target="_blank">📅 Day 24: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🗃️ <strong>Second Normal Form</strong></li>
+    <li>📚 <strong>2NF | Database Management System</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#" target="_blank">📅 Day 25: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🗃️ <strong>Third Normal Form in DBMS with Examples</strong></li>
+    <li>📊 <strong>Normalization</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#" target="_blank">📅 Day 26: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🏛️ <strong>Boyce Codd Normal Form</strong></li>
+    <li>📘 <strong>BCNF Normalization with Best Example</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#" target="_blank">📅 Day 27: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🧩 <strong>BCNF Always Ensure Dependency Preserving Decomposition?</strong></li>
+    <li>📊 <strong>Normalization Example</strong></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong><a href="#" target="_blank">📅 Day 28: Coming Soon</a></strong></summary>
+  <ul style="margin-left: 20px;">
+    <li>🔍 <strong>Lossless and Lossy Decomposition</strong></li>
+    <li>🗂️ <strong>Fifth Normal Form in DBMS</strong></li>
+  </ul>
+</details>
+
+</details>
+
 
 
 
