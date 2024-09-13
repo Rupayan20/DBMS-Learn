@@ -1,0 +1,30 @@
+Day 23: Functional Dependencies & It's Properties in DBMS
+
+like:      X ---> Y
+here, X = Determinant and Y = Depended
+means, X determines Y
+or,    Y is determined by X
+
+Types: 
+i) Trival Functional Dependency:
+      X ---> Y   |   X ∩ Y != 0
+    then, Y is subset of X
+
+ii) Non Trival Functional Dependency:
+       X ---> Y   |   X ∩ Y = 0
+
+-> Properties of Functional Dependency:
+1) Reflexivity: If Y is subset of X; then X ---> Y
+
+2) Augmentation: If X ---> Y; then XZ ---> YZ
+
+3) Transitive: If X ---> Y and Y ---> Z; then X ---> Z
+
+4) Union: If X ---> Y and X ---> Z; then X ---> YZ
+
+5) Decomposition: If X ---> YZ; then  ---> Y and X ---> Z
+
+6) Psedutransitivity: If X ---> Y and WY ---> Z; then WX ---> Z
+                      If X ---> Y and Z ---> W; then XZ ---> YW
+
+            ------------------------------✗------------------------------
