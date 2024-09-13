@@ -214,7 +214,7 @@ The goal of this challenge is to provide a structured learning path for DBMS ent
 </details>
 
 <details>
-  <summary><strong><a href="#" target="_blank">📅 Day 23: Coming Soon</a></strong></summary>
+  <summary><strong><a href="https://github.com/Rupayan20/DBMS-Learn/blob/main/day23.txt" target="_blank">📅 Day 23: Coming Soon</a></strong></summary>
   <ul style="margin-left: 20px;">
     <li>🧩 <strong>Functional Dependencies & Its Properties in DBMS</strong></li>
   </ul>
